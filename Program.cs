@@ -26,8 +26,9 @@ namespace StoryClass
 
             Console.WriteLine("{0}: reached the cave of: ",forest._rName);
             string lname = Console.ReadLine();
+             King lion = new King(lname, 50, 20);
 
-            Console.WriteLine("{0}: Why are you late", lname);
+            Console.WriteLine("{0}: Why are you late", lion._rName);
             Console.ReadKey();
             Console.WriteLine("{0}:I am a so sorry, sir. Another lion has come to this forest. He stopped me on the way. He wants to kill you.", forest._rName);
             Console.ReadKey();
