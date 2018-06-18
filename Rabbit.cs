@@ -17,6 +17,11 @@ namespace StoryClass
             
 
         }
+        public void End()
+        {
+            Console.WriteLine("End of the story");
+        }
+
 
     }
 }
