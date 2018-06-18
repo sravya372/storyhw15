@@ -43,7 +43,8 @@ namespace StoryClass
             Console.WriteLine("Moral: Cleverness can overcome a foe.");
             Console.ReadKey();
             
-            
+            forest.End();
+            Console.ReadKey();
 
            
 
